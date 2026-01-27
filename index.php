@@ -15,7 +15,7 @@
       
 			echo '
       <script>
-		    const url = "/api/aggregate.php"	
+		    const url = "/api/aggregateEvents.php"	
 				const data = fetch(url,{
            "Content-Type": "text/html; charset=UTF-8"
 					}).then((response)=>{
