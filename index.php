@@ -21,6 +21,10 @@
 	<body>
     <div id="container"> 
 			<h1>Board game event listing</h1>
+      <p>This is a work in progress  proof of concept for an 
+			<a href=" https://codeberg.org/createthirdplaces/board-game-aggregator">open source board game event aggregator</a>.
+			 For more details, see <a href="https://createthirdplaces.org/events/decentralizedEventHosting.html">this page</a>
+			 or email gulu@createthirdplaces.org</p> 
 			<div id="results">
 				<p>Loading</p>	
 			</div>
