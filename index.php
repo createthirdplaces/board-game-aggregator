@@ -24,7 +24,7 @@
       <p>This is a work in progress  proof of concept for an 
 			<a href=" https://codeberg.org/createthirdplaces/board-game-aggregator">open source board game event aggregator</a>.
 			 For more details, see <a href="https://createthirdplaces.org/events/decentralizedEventHosting.html">this page</a>
-			 or email gulu@createthirdplaces.org</p> 
+			 or email gulu@createthirdplaces.org.</p> 
 			<div id="results">
 				<p>Loading</p>	
 			</div>
@@ -34,9 +34,11 @@
 
 				//TODO: Check cache before calling API
 				
+			  $url = "/view/showEvents.php?" . parse_url(
+				$_SERVER['REQUEST_URI'])['query'];
 				echo '
 				<script>
-					const url = "/view/showEvents.php"	
+					const url = "' .$url . '"
 					const data = fetch(url,{
 						 "Content-Type": "text/html; charset=UTF-8"
 						}).then((response)=>{

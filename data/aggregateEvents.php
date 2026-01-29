@@ -55,7 +55,7 @@ function getEvents() {
 		$eventData = $data -> eventData;
 		$events = array_merge($events, $eventData);
 	}
-/ 
+ 
  $events = array_merge($events,getTestEvents());
 	
  /*

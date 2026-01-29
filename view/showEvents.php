@@ -1,8 +1,11 @@
 <?php
   require $_SERVER['DOCUMENT_ROOT'] . '/data/aggregateEvents.php';
+  require $_SERVER['DOCUMENT_ROOT'] . '/view/showPagination.php';
+
 
   $data = getEvents();
-  
+ 
+  echo showPagination($data); 
 	echo "<br><ul>";
 
   foreach($data as $event) {
