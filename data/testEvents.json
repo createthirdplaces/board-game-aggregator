@@ -1,0 +1,54 @@
+{
+  "eventData": [
+    {
+      "isRecurring": true,
+      "eventLocation": {
+        "city": "Silver Spring",
+        "state":"MD",
+        "streetAddress": "8560 Second Avenue, Suite 118",
+        "zipCode": 20910
+      },
+      "nextEventTime": "01:00 PM",
+      "dayOfWeek": "Saturday",
+      "groupName": "U.S. Chess Center",
+      "eventName": "Saturday Afternoon Chess"
+     },
+      {
+      "isRecurring": true,
+      "eventLocation": {
+        "city": "Arlington",
+        "state":"VA",
+        "streetAddress": "The Board Room"
+      },
+      "nextEventTime": "01:00 PM",
+      "dayOfWeek": "Saturday",
+      "groupName": "Chess on Tap",
+      "eventName": "Chess on Tap - Arlington"
+     },
+    {
+      "isRecurring": true,
+      "eventLocation": {
+        "city": "Washington",
+        "state":"DC",
+        "streetAddress": "Board Room"
+      },
+      "nextEventTime": "6:30PM",
+      "dayOfWeek": "Monday",
+      "groupName": "Chess on Tap",
+      "eventName": "Chess on Tap @ DC Board Room"
+     },
+    {
+      "isRecurring": true,
+      "eventLocation": {
+        "city": "Alexandria",
+        "state":"VA",
+        "streetAddress": "Mason Social"
+      },
+      "nextEventTime": "01:00 PM",
+      "dayOfWeek": "Tuesday",
+      "groupName": "Chess on Tap",
+      "eventName": "Pints & Pawns"
+     }
+
+  ]
+}
