@@ -6,10 +6,13 @@
 	echo "<br><ul>";
 
   foreach($data as $event) {
-    $eventDay = $event->nextEventDate;
+    $eventDay = ''; 
 		if($event->dayOfWeek){
 			$eventDay = $event->dayOfWeek . "s";
 		}
+	  else {
+			$eventDay = $event->nextEventDate;	
+	  }	
 		echo "
 		  <li>	
 				<h4>{$event ->eventName}</h4>

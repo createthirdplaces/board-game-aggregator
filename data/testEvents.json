@@ -25,7 +25,7 @@
       "groupName": "Chess on Tap",
       "eventName": "Chess on Tap - Arlington"
      },
-    {
+     {
       "isRecurring": true,
       "eventLocation": {
         "city": "Washington",
@@ -37,18 +37,53 @@
       "groupName": "Chess on Tap",
       "eventName": "Chess on Tap @ DC Board Room"
      },
-    {
+     {
       "isRecurring": true,
       "eventLocation": {
         "city": "Alexandria",
         "state":"VA",
         "streetAddress": "Mason Social"
       },
-      "nextEventTime": "01:00 PM",
+      "nextEventTime": "07:00 PM",
       "dayOfWeek": "Tuesday",
       "groupName": "Chess on Tap",
       "eventName": "Pints & Pawns"
+     },
+     {
+      "isRecurring": true,
+      "eventLocation": {
+        "city": "Arlington",
+        "state":"VA",
+        "streetAddress": "Mt. Olivet United Methodist Church"
+      },
+      "nextEventTime": "07:00 PM",
+      "dayOfWeek": "Friday",
+      "groupName": "Arlington Chess Club",
+      "eventName": "Friday Ladder"
+     },
+     {
+      "isRecurring": true,
+      "eventLocation": {
+        "city": "Rockville",
+        "state":"MD",
+        "streetAddress": "Rockville Science Center"
+      },
+      "nextEventTime": "6:30 PM",
+      "dayOfWeek": "Monday",
+      "groupName": "Rockville Chess Club",
+      "eventName": "Club meeting"
+     },
+     {
+      "isRecurring": true,
+      "eventLocation": {
+        "city": "Frederick",
+        "state":"MD",
+        "streetAddress": "Frederick Social"
+      },
+      "nextEventTime": "5:00 PM",
+      "dayOfWeek": "Wednesday",
+      "groupName": "Frederick Chess Club",
+      "eventName": "Wednesday Chess at Frederick Social"
      }
-
   ]
 }
